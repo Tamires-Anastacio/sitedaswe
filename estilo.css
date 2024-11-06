@@ -1,0 +1,29 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(71, 5, 109);
+}
+
+.back_img{
+    background-image: url("..img/logoatual.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo{
+    background-color: rgb(176, 127, 219);
+}
+.img-logo{
+    width: 10%;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: rgb(245, 171, 245);
+    padding: 3%;
+}

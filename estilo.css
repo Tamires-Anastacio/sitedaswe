@@ -158,14 +158,6 @@ nav ul li {
     display: block;
   }
   
-  /* Menu responsivo (no caso de telas pequenas) */
-  .menu-toggle {
-    display: none; /* Esconde o menu hamburguer por padrão */
-    cursor: pointer;
-    font-size: 30px;
-    color: white;
-  }
-  
   /* Media Query: ajusta o layout para telas menores (menos de 768px) */
   @media (max-width: 768px) {
     .menu {
@@ -294,4 +286,14 @@ nav ul li {
   p{
     color: rgb(250, 252, 253);
   }
-  
+  @media (max-width: 768px) {
+    .menu{
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: 0;
+    }
+  }
+ 
